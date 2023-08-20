@@ -1,0 +1,32 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(nav.css);
+@import url(blogpost.css);
+@import url(index.css);
+@media only screen and (max-width: 550px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+    .header-container{
+      font-size: 20px;
+      text-align: center;
+    }
+    .blogtxt{
+      text-align: justify;
+      text-justify: inter-word;
+      padding-left: 10px;
+      padding-right: 10px;
+      line-height: 16pt;
+      font-size: 12px;
+   }
+  }

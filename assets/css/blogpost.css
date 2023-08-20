@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box
+  }
+  .flex-container{
+    display: -webkit-flex;
+    display: flex;
+    --webkit-flex-wrap:wrap;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color:#f1f1f1;
+      text-align: center;
+    }
+    img{
+      width: 350px;
+      height: 200px;
+      padding: 30px
+    }
+    .fimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+
+    .flex-item{
+      background-color: #e1ebe979;
+      transition: 0.3s;
+      max-width: 300px;
+      min-height: 400px;
+      align-content: center;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 40px;
+      text-align: center;
+      font-family: arial;
+    }
+    .card {
+      border: none;
+      border-radius: 5px;
+      padding: 12px 20px;
+      width: max-content;
+      font-size: 16px;
+      height: inherit;
+      background-color: #fafafa;
+      color: rgb(19, 18, 18);
+      position: relative;
+    }
+    .container{
+      text-align: center;
+    }
+
+.follow{
+    text-align: center;
+    text-shadow: #555;
+}

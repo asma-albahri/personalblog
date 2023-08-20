@@ -1,0 +1,21 @@
+header {
+    background-color: gray;
+    color: #12d15b;
+    padding: 30px;
+    font-size: 50px;
+    border: #12d15b;
+    font-style: italic;
+    text-align: center;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+  }
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
